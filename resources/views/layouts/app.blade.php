@@ -498,14 +498,14 @@
 
                         <li class="nav-item">
                             <a href="https://adminlte.io/docs/3.1/" class="nav-link">
-                                <i class="nav-icon fas fa-file"></i>
+                                <i class="nav-icon fas fa-message-sms"></i>
                                 <p>SMS Rekapitulasi</p>
                             </a>
                         </li>
 
                         <li class="nav-item">
                             <a href="https://adminlte.io/docs/3.1/" class="nav-link">
-                                <i class="nav-icon fas fa-file"></i>
+                                <i class="nav-icon fas fa-message-pen"></i>
                                 <p>Pengaturan SMS</p>
                             </a>
                         </li>
@@ -1228,7 +1228,6 @@
                             <div class="small-box bg-danger">
                                 <div class="inner">
                                     <h3>65</h3>
-
                                     <p>Keterangan</p>
                                 </div>
                                 <div class="icon">
