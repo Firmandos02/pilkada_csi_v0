@@ -251,20 +251,75 @@
                         data-accordion="false">
                         <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-
                         <li class="nav-item">
-                            <a href="https://adminlte.io/docs/3.1/" class="nav-link">
+                            <a href="#" class="nav-link">
+                                <i class="nav-icon fas fa-building"></i>
+                                <p>
+                                    Master Data
+                                    <i class="right fas fa-angle-left"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="pages/charts/chartjs.html" class="nav-link">
+                                        <i class="far fa-building nav-icon"></i>
+                                        <p>Data Kabupaten</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="pages/charts/flot.html" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Data Kecamatan</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="pages/charts/inline.html" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Data Kelurahan</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="pages/charts/uplot.html" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Data Desa</p>
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="pages/charts/chartjs.html" class="nav-link">
+                                        <i class="far fa-building nav-icon"></i>
+                                        <p>Data TPS</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="pages/charts/flot.html" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Data Partai</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="pages/charts/inline.html" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Data DPT</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="pages/charts/uplot.html" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Data Dapil</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        {{-- +++++++ --}}
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-server"></i>
-                                <p>Master Data</p>
+                                <p>Caleg</p>
                             </a>
                         </li>
 
-                        <li class="nav-item">
-                            <a href="https://adminlte.io/docs/3.1/" class="nav-link">
-                                <i class="nav-icon fas fa-file"></i>
-                                <p>Pasangan Calon</p>
-                            </a>
-                        </li>
 
 
 
@@ -290,48 +345,32 @@
                                         <p>Flot</p>
                                     </a>
                                 </li>
-                                <li class="nav-item">
-                                    <a href="pages/charts/inline.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Inline</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="pages/charts/uplot.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>uPlot</p>
-                                    </a>
-                                </li>
+
                             </ul>
                         </li>
 
 
-                        <li class="nav-item">
-                            <a href="https://adminlte.io/docs/3.1/" class="nav-link">
-                                <i class="nav-icon fas fa-file"></i>
-                                <p>Data DPT</p>
-                            </a>
-                        </li>
+
 
 
                         <li class="nav-item">
-                            <a href="https://adminlte.io/docs/3.1/" class="nav-link">
+                            <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-thumbs-up"></i>
                                 <p>Data Pemilih/Pendukung</p>
                             </a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="https://adminlte.io/docs/3.1/" class="nav-link">
+                            <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-file"></i>
-                                <p>Operator SMANKA</p>
+                                <p>Operator</p>
                             </a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="https://adminlte.io/docs/3.1/" class="nav-link">
+                            <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-file"></i>
-                                <p>Data Pemilih/Pendukung</p>
+                                <p>Saksi</p>
                             </a>
                         </li>
 
@@ -340,43 +379,7 @@
                             <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-chart-pie"></i>
                                 <p>
-                                    Manajemen Logistik
-                                    <i class="right fas fa-angle-left"></i>
-                                </p>
-                            </a>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item">
-                                    <a href="pages/charts/chartjs.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Manajemen Logistik</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="pages/charts/flot.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Flot</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="pages/charts/inline.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Inline</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="pages/charts/uplot.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>uPlot</p>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon fas fa-chart-pie"></i>
-                                <p>
-                                    Monitpring Ibu Publik
+                                    Isu
                                     <i class="right fas fa-angle-left"></i>
                                 </p>
                             </a>
@@ -388,13 +391,13 @@
                                     </a>
                                 </li>
 
-
                             </ul>
                         </li>
 
 
 
-                        <li class="nav-header">SMANDA</li>
+
+                        <li class="nav-header">Extra Menu</li>
 
                         <li class="nav-item">
                             <a href="#" class="nav-link">
@@ -500,14 +503,14 @@
 
 
                         <li class="nav-item">
-                            <a href="https://adminlte.io/docs/3.1/" class="nav-link">
+                            <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-thumbs-up"></i>
                                 <p>SMS Rekapitulasi</p>
                             </a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="https://adminlte.io/docs/3.1/" class="nav-link">
+                            <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-thumbs-up"></i>
 
                                 <p>Pengaturan SMS</p>
@@ -527,7 +530,7 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Dashboard</h1>
+                            <h1 class="m-0">{{ date('Y-m-d h:i:sa') }}</h1>
                         </div><!-- /.col -->
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
@@ -544,319 +547,161 @@
             <section class="content">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-12 col-sm-6 col-md-3">
-                            <div class="card h-100">
-                                <div class="card-header text-center">
-                                    <p class="m-0">Pilkada Serentak</p>
-                                    <h4 class="m-0">9 Desember 2020</h4>
+                        <div class="col-lg-3 col-6">
+                            <!-- small box -->
+                            <div class="small-box bg-info">
+                                <div class="inner">
+                                    <h3>150</h3>
+
+                                    <p>Jumlah TPS</p>
                                 </div>
+                                <div class="icon">
+                                    <i class="ion ion-bag"></i>
+                                </div>
+                                <a href="#" class="small-box-footer">More info <i
+                                        class="fas fa-arrow-circle-right"></i></a>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-5">
-                            <div class="row h-100">
-                                <div class="col-12 col-sm-6 col-md-4">
-                                    <div class="info-box mb-3 h-75">
-                                    </div>
+                        <!-- ./col -->
+                        <div class="col-lg-3 col-6">
+                            <!-- small box -->
+                            <div class="small-box bg-success">
+                                <div class="inner">
+                                    <h3>53<sup style="font-size: 20px">%</sup></h3>
+
+                                    <p>Jumlah Partai</p>
                                 </div>
-                                <div class="col-12 col-sm-6 col-md-4">
-                                    <div class="info-box mb-3 h-75">
-                                    </div>
+                                <div class="icon">
+                                    <i class="ion ion-stats-bars"></i>
                                 </div>
-                                <div class="col-12 col-sm-6 col-md-4">
-                                    <div class="info-box mb-3 h-75">
-                                    </div>
-                                </div>
+                                <a href="#" class="small-box-footer">More info <i
+                                        class="fas fa-arrow-circle-right"></i></a>
                             </div>
                         </div>
+                        <!-- ./col -->
+                        <div class="col-lg-3 col-6">
+                            <!-- small box -->
+                            <div class="small-box bg-warning">
+                                <div class="inner">
+                                    <h3>44</h3>
 
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <div class="row">
-                                <div class="col-6">
-                                    <div class="info-box">
-                                        <div class="inner">
-                                            <h3 class="m-0">44</h3>
-
-                                            <p class="m-0">Jumlah DPT</p>
-                                        </div>
-                                        <div class="icon">
-                                            <i class="ion ion-person-add"></i>
-                                        </div>
-                                    </div>
+                                    <p>Jumlah DPT</p>
                                 </div>
-                                <div class="col-6">
-                                    <div class="info-box">
-                                        <div class="inner">
-                                            <h3 class="m-0">44</h3>
-
-                                            <p class="m-0">Relawan</p>
-                                        </div>
-                                        <div class="icon">
-                                            <i class="ion ion-person-add"></i>
-                                        </div>
-                                    </div>
+                                <div class="icon">
+                                    <i class="ion ion-person-add"></i>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-6">
-                                    <div class="info-box">
-                                        <div class="inner">
-                                            <h3 class="m-0">44</h3>
-
-                                            <p class="m-0">Jumlah TPS</p>
-                                        </div>
-                                        <div class="icon">
-                                            <i class="ion ion-person-add"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="info-box">
-                                        <div class="inner">
-                                            <h3 class="m-0">44</h3>
-
-                                            <p class="m-0">Pendukung</p>
-                                        </div>
-                                        <div class="icon">
-                                            <i class="ion ion-person-add"></i>
-                                        </div>
-                                    </div>
-                                </div>
+                                <a href="#" class="small-box-footer">More info <i
+                                        class="fas fa-arrow-circle-right"></i></a>
                             </div>
                         </div>
+                        <!-- ./col -->
+                        <div class="col-lg-3 col-6">
+                            <!-- small box -->
+                            <div class="small-box bg-danger">
+                                <div class="inner">
+                                    <h3>65</h3>
+
+                                    <p>Jumlah Dapil</p>
+                                </div>
+                                <div class="icon">
+                                    <i class="ion ion-pie-graph"></i>
+                                </div>
+                                <a href="#" class="small-box-footer">More info <i
+                                        class="fas fa-arrow-circle-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- ./col -->
+
+                        <div class="col-lg-3 col-6">
+                            <!-- small box -->
+                            <div class="small-box bg-info">
+                                <div class="inner">
+                                    <h3>150</h3>
+
+                                    <p>Jumlah Caleg Partai</p>
+                                </div>
+                                <div class="icon">
+                                    <i class="ion ion-bag"></i>
+                                </div>
+                                <a href="#" class="small-box-footer">More info <i
+                                        class="fas fa-arrow-circle-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- ./col -->
+                        <div class="col-lg-3 col-6">
+                            <!-- small box -->
+                            <div class="small-box bg-success">
+                                <div class="inner">
+                                    <h3>53<sup style="font-size: 20px">%</sup></h3>
+
+                                    <p>Jumlah Relawan</p>
+                                </div>
+                                <div class="icon">
+                                    <i class="ion ion-stats-bars"></i>
+                                </div>
+                                <a href="#" class="small-box-footer">More info <i
+                                        class="fas fa-arrow-circle-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- ./col -->
+                        <div class="col-lg-3 col-6">
+                            <!-- small box -->
+                            <div class="small-box bg-warning">
+                                <div class="inner">
+                                    <h3>44</h3>
+
+                                    <p>Jumlah Operator</p>
+                                </div>
+                                <div class="icon">
+                                    <i class="ion ion-person-add"></i>
+                                </div>
+                                <a href="#" class="small-box-footer">More info <i
+                                        class="fas fa-arrow-circle-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- ./col -->
+                        <div class="col-lg-3 col-6">
+                            <!-- small box -->
+                            <div class="small-box bg-danger">
+                                <div class="inner">
+                                    <h3>65</h3>
+
+                                    <p>Jumlah Saksi</p>
+                                </div>
+                                <div class="icon">
+                                    <i class="ion ion-pie-graph"></i>
+                                </div>
+                                <a href="#" class="small-box-footer">More info <i
+                                        class="fas fa-arrow-circle-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- ./col -->
+                        <!-- ./col -->
+                        <div class="col-lg-3 col-6">
+                            <!-- small box -->
+                            <div class="small-box bg-danger">
+                                <div class="inner">
+                                    <h3>65</h3>
+
+                                    <p>Jumlah Kordinator</p>
+                                </div>
+                                <div class="icon">
+                                    <i class="ion ion-pie-graph"></i>
+                                </div>
+                                <a href="#" class="small-box-footer">More info <i
+                                        class="fas fa-arrow-circle-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- ./col -->
                     </div>
-                    <div class="row h-100 mt-3">
-                        <div class="col-md-3">
-                            <div class="card h-100">
-                                <div class="card-header">
-                                    <h3 class="card-title">Aplikasi</h3>
-                                </div>
-                                <!-- /.card-header -->
-                                <div class="card-body p-0">
-                                    <ul class="products-list product-list-in-card pl-2 pr-2">
-                                        <li class="item">
-                                            <div class="product-img">
-                                                <img src="dist/img/default-150x150.png" alt="Product Image"
-                                                    class="img-size-50">
-                                            </div>
-                                            <div class="product-info">
-                                                <a href="javascript:void(0)" class="product-title">Kelola DPT</a>
-                                                <span class="product-description">
-                                                    Manajemen data DPT
-                                                </span>
-                                            </div>
-                                        </li>
-                                        <!-- /.item -->
-                                        <li class="item">
-                                            <div class="product-img">
-                                                <img src="dist/img/default-150x150.png" alt="Product Image"
-                                                    class="img-size-50">
-                                            </div>
-                                            <div class="product-info">
-                                                <a href="javascript:void(0)" class="product-title">Data Relawan</a>
-                                                <span class="product-description">
-                                                    Menyimpan data relawan
-                                                </span>
-                                            </div>
-                                        </li>
-                                        <!-- /.item -->
-                                        <li class="item">
-                                            <div class="product-img">
-                                                <img src="dist/img/default-150x150.png" alt="Product Image"
-                                                    class="img-size-50">
-                                            </div>
-                                            <div class="product-info">
-                                                <a href="javascript:void(0)" class="product-title">Data Pendukng</a>
-                                                <span class="product-description">
-                                                    Menyimpan Data Pendukung
-                                                </span>
-                                            </div>
-                                        </li>
-                                        <!-- /.item -->
-                                        <li class="item">
-                                            <div class="product-img">
-                                                <img src="dist/img/default-150x150.png" alt="Product Image"
-                                                    class="img-size-50">
-                                            </div>
-                                            <div class="product-info">
-                                                <a href="javascript:void(0)" class="product-title">Logistik</a>
-                                                <span class="product-description">
-                                                    Data Logistik
-                                                </span>
-                                            </div>
-                                        </li>
-                                        <!-- /.item -->
-                                    </ul>
-                                    <!-- /.card-body -->
-                                    <hr>
-                                    <div class="card-header">
-                                        <h3 class="card-title">Tabulasi</h3>
-                                    </div>
-                                    <ul class="products-list product-list-in-card pl-2 pr-2">
-                                        <!-- /.item -->
-                                        <li class="item">
-                                            <div class="product-img">
-                                                <img src="dist/img/default-150x150.png" alt="Product Image"
-                                                    class="img-size-50">
-                                            </div>
-                                            <div class="product-info">
-                                                <a href="javascript:void(0)" class="product-title">Survey</a>
-                                                <span class="product-description">
-                                                    Lorem ipsum dolor sit amet consectetur.
-                                                </span>
-                                            </div>
-                                        </li>
-                                        <!-- /.item -->
-                                        <li class="item">
-                                            <div class="product-img">
-                                                <img src="dist/img/default-150x150.png" alt="Product Image"
-                                                    class="img-size-50">
-                                            </div>
-                                            <div class="product-info">
-                                                <a href="javascript:void(0)" class="product-title">Quick Count</a>
-                                                <span class="product-description">
-                                                    Lorem ipsum dolor sit.
-                                                </span>
-                                            </div>
-                                        </li>
-                                        <!-- /.item -->
-                                        <li class="item">
-                                            <div class="product-img">
-                                                <img src="dist/img/default-150x150.png" alt="Product Image"
-                                                    class="img-size-50">
-                                            </div>
-                                            <div class="product-info">
-                                                <a href="javascript:void(0)" class="product-title">Lorem, ipsum.</a>
-                                                <span class="product-description">
-                                                    Lorem ipsum dolor sit amet consectetur.
-                                                </span>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-2">
-                            <div class="card h-100">
-                                <div class="card-header">
-                                    <h3 class="card-title">DEMOGRAPHY</h3>
-                                </div>
-                                <div class="card mx-3">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="card-bodyp-0">
-                                                <div class="card-body box-profile">
-                                                    <div class="text-center">
-                                                        <img class="img-100" src="../../dist/img/user4-128x128.jpg"
-                                                            alt="User profile picture">
-                                                    </div>
-                                                    <p class="text-center m-0">5.112</p>
-                                                    <h5 class="text-center mt-1">48%</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="card-body p-0">
-                                                <div class="card-body box-profile">
-                                                    <div class="text-center">
-                                                        <img class="img-100" src="../../dist/img/user4-128x128.jpg"
-                                                            alt="User profile picture">
-                                                    </div>
-                                                    <p class="text-center m-0">5.112</p>
-                                                    <h5 class="text-center mt-1">52%</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12 pb-4">
-                                            <div class="text-center">Data Pemilih Tetap</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card mx-3">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="card-body p-0">
-                                                <div class="card-body box-profile">
-                                                    <div class="text-center">
-                                                        <img class="img-100" src="../../dist/img/user4-128x128.jpg"
-                                                            alt="User profile picture">
-                                                    </div>
-                                                    <p class="text-center m-0">5.112</p>
-                                                    <h5 class="text-center mt-1">48%</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="card-bodyp-0">
-                                                <div class="card-body box-profile">
-                                                    <div class="text-center">
-                                                        <img class="img-100" src="../../dist/img/user4-128x128.jpg"
-                                                            alt="User profile picture">
-                                                    </div>
-                                                    <p class="text-center m-0">5.112</p>
-                                                    <h5 class="text-center mt-1">52%</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12 pb-4">
-                                            <div class="text-center">Data Pemilih Tetap</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card mx-3">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="card-body p-0">
-                                                <div class="card-body box-profile">
-                                                    <div class="text-center">
-                                                        <img class="img-100" src="../../dist/img/user4-128x128.jpg"
-                                                            alt="User profile picture">
-                                                    </div>
-                                                    <p class="text-center m-0">5.112</p>
-                                                    <h5 class="text-center mt-1">48%</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="card-body p-0">
-                                                <div class="card-body box-profile">
-                                                    <div class="text-center">
-                                                        <img class="img-100" src="../../dist/img/user4-128x128.jpg"
-                                                            alt="User profile picture">
-                                                    </div>
-                                                    <p class="text-center m-0">5.112</p>
-                                                    <h5 class="text-center mt-1">52%</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12 pb-4">
-                                            <div class="text-center">Data Pemilih Tetap</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-7">
-                            <div class="card h-100">
-                                <div class="card-body d-flex flex-column justify-content-end">
-                                    <p class="text-center">
-                                        <strong>Relawan Timeline</strong><br>
-                                        <span>Grafik rekaman data Gerakan Relawan dalam pengumpulan dukungan</span>
-                                    </p>
-                                    <div class="chart mt-auto">
-                                        <!-- Sales Chart Canvas -->
-                                        <canvas id="salesChart" height="500"></canvas>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </section>
             <!-- /.content -->
         </div>
         <!-- /.content-wrapper -->
         <footer class="main-footer">
-            <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong>
+            <strong>Copyright &copy; 2014-2021 <a href="#">Cybermuda Solusi Informatika</a>.</strong>
             All rights reserved.
             <div class="float-right d-none d-sm-inline-block">
                 <b>Version</b> 3.2.0
