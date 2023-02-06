@@ -545,10 +545,14 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-12 col-sm-6 col-md-3">
-                            <div class="info-box h-100">
+                            <div class="card h-100">
+                                <div class="card-header text-center">
+                                    <p class="m-0">Pilkada Serentak</p>
+                                    <h4 class="m-0">9 Desember 2020</h4>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-6">
+                        <div class="col-12 col-sm-6 col-md-5">
                             <div class="row h-100">
                                 <div class="col-12 col-sm-6 col-md-4">
                                     <div class="info-box mb-3 h-75">
@@ -565,14 +569,56 @@
                             </div>
                         </div>
 
-                        <div class="col-12 col-sm-6 col-md-3">
+                        <div class="col-12 col-sm-6 col-md-4">
                             <div class="row">
-                                <div class="col-12">
+                                <div class="col-6">
                                     <div class="info-box">
+                                        <div class="inner">
+                                            <h3 class="m-0">44</h3>
+
+                                            <p class="m-0">Jumlah DPT</p>
+                                        </div>
+                                        <div class="icon">
+                                            <i class="ion ion-person-add"></i>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-12">
+                                <div class="col-6">
                                     <div class="info-box">
+                                        <div class="inner">
+                                            <h3 class="m-0">44</h3>
+
+                                            <p class="m-0">Relawan</p>
+                                        </div>
+                                        <div class="icon">
+                                            <i class="ion ion-person-add"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="info-box">
+                                        <div class="inner">
+                                            <h3 class="m-0">44</h3>
+
+                                            <p class="m-0">Jumlah TPS</p>
+                                        </div>
+                                        <div class="icon">
+                                            <i class="ion ion-person-add"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="info-box">
+                                        <div class="inner">
+                                            <h3 class="m-0">44</h3>
+
+                                            <p class="m-0">Pendukung</p>
+                                        </div>
+                                        <div class="icon">
+                                            <i class="ion ion-person-add"></i>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -582,7 +628,7 @@
                         <div class="col-md-3">
                             <div class="card h-100">
                                 <div class="card-header">
-                                    <h3 class="card-title">Recently Added Products</h3>
+                                    <h3 class="card-title">Aplikasi</h3>
                                 </div>
                                 <!-- /.card-header -->
                                 <div class="card-body p-0">
@@ -593,10 +639,9 @@
                                                     class="img-size-50">
                                             </div>
                                             <div class="product-info">
-                                                <a href="javascript:void(0)" class="product-title">Samsung TV
-                                                    <span class="badge badge-warning float-right">$1800</span></a>
+                                                <a href="javascript:void(0)" class="product-title">Kelola DPT</a>
                                                 <span class="product-description">
-                                                    Samsung 32" 1080p 60Hz LED Smart HDTV.
+                                                    Manajemen data DPT
                                                 </span>
                                             </div>
                                         </li>
@@ -607,10 +652,9 @@
                                                     class="img-size-50">
                                             </div>
                                             <div class="product-info">
-                                                <a href="javascript:void(0)" class="product-title">Bicycle
-                                                    <span class="badge badge-info float-right">$700</span></a>
+                                                <a href="javascript:void(0)" class="product-title">Data Relawan</a>
                                                 <span class="product-description">
-                                                    26" Mongoose Dolomite Men's 7-speed, Navy Blue.
+                                                    Menyimpan data relawan
                                                 </span>
                                             </div>
                                         </li>
@@ -621,13 +665,9 @@
                                                     class="img-size-50">
                                             </div>
                                             <div class="product-info">
-                                                <a href="javascript:void(0)" class="product-title">
-                                                    Xbox One <span class="badge badge-danger float-right">
-                                                        $350
-                                                    </span>
-                                                </a>
+                                                <a href="javascript:void(0)" class="product-title">Data Pendukng</a>
                                                 <span class="product-description">
-                                                    Xbox One Console Bundle with Halo Master Chief Collection.
+                                                    Menyimpan Data Pendukung
                                                 </span>
                                             </div>
                                         </li>
@@ -638,10 +678,9 @@
                                                     class="img-size-50">
                                             </div>
                                             <div class="product-info">
-                                                <a href="javascript:void(0)" class="product-title">PlayStation 4
-                                                    <span class="badge badge-success float-right">$399</span></a>
+                                                <a href="javascript:void(0)" class="product-title">Logistik</a>
                                                 <span class="product-description">
-                                                    PlayStation 4 500GB Console (PS4)
+                                                    Data Logistik
                                                 </span>
                                             </div>
                                         </li>
@@ -650,7 +689,7 @@
                                     <!-- /.card-body -->
                                     <hr>
                                     <div class="card-header">
-                                        <h3 class="card-title">Recently Added Products</h3>
+                                        <h3 class="card-title">Tabulasi</h3>
                                     </div>
                                     <ul class="products-list product-list-in-card pl-2 pr-2">
                                         <!-- /.item -->
@@ -660,10 +699,9 @@
                                                     class="img-size-50">
                                             </div>
                                             <div class="product-info">
-                                                <a href="javascript:void(0)" class="product-title">Bicycle
-                                                    <span class="badge badge-info float-right">$700</span></a>
+                                                <a href="javascript:void(0)" class="product-title">Survey</a>
                                                 <span class="product-description">
-                                                    26" Mongoose Dolomite Men's 7-speed, Navy Blue.
+                                                    Lorem ipsum dolor sit amet consectetur.
                                                 </span>
                                             </div>
                                         </li>
@@ -674,71 +712,135 @@
                                                     class="img-size-50">
                                             </div>
                                             <div class="product-info">
-                                                <a href="javascript:void(0)" class="product-title">
-                                                    Xbox One <span class="badge badge-danger float-right">
-                                                        $350
-                                                    </span>
-                                                </a>
+                                                <a href="javascript:void(0)" class="product-title">Quick Count</a>
                                                 <span class="product-description">
-                                                    Xbox One Console Bundle with Halo Master Chief Collection.
+                                                    Lorem ipsum dolor sit.
                                                 </span>
                                             </div>
                                         </li>
                                         <!-- /.item -->
+                                        <li class="item">
+                                            <div class="product-img">
+                                                <img src="dist/img/default-150x150.png" alt="Product Image"
+                                                    class="img-size-50">
+                                            </div>
+                                            <div class="product-info">
+                                                <a href="javascript:void(0)" class="product-title">Lorem, ipsum.</a>
+                                                <span class="product-description">
+                                                    Lorem ipsum dolor sit amet consectetur.
+                                                </span>
+                                            </div>
+                                        </li>
                                     </ul>
                                 </div>
-                                <!-- /.card-footer -->
                             </div>
                         </div>
                         <div class="col-md-2">
                             <div class="card h-100">
                                 <div class="card-header">
-                                    <h3 class="card-title">Latest Members</h3>
+                                    <h3 class="card-title">DEMOGRAPHY</h3>
                                 </div>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="card-body card-primary p-0">
-                                            <!-- Profile Image -->
-                                            <div class="card-body box-profile">
-                                                <div class="text-center">
-                                                    <img class="profile-user-img"
-                                                        src="../../dist/img/user4-128x128.jpg"
-                                                        alt="User profile picture">
+                                <div class="card mx-3">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="card-bodyp-0">
+                                                <div class="card-body box-profile">
+                                                    <div class="text-center">
+                                                        <img class="img-100" src="../../dist/img/user4-128x128.jpg"
+                                                            alt="User profile picture">
+                                                    </div>
+                                                    <p class="text-center m-0">5.112</p>
+                                                    <h5 class="text-center mt-1">48%</h5>
                                                 </div>
-
-                                                <h3 class="profile-username text-center">Nina Mcintire</h3>
-
-                                                <p class="text-muted text-center">Software Engineer</p>
                                             </div>
-                                            <!-- /.card -->
                                         </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="card-body card-primary p-0">
-                                            <!-- Profile Image -->
-                                            <div class="card-body box-profile">
-                                                <div class="text-center">
-                                                    <img class="profile-user-img"
-                                                        src="../../dist/img/user4-128x128.jpg"
-                                                        alt="User profile picture">
+                                        <div class="col-md-6">
+                                            <div class="card-body p-0">
+                                                <div class="card-body box-profile">
+                                                    <div class="text-center">
+                                                        <img class="img-100" src="../../dist/img/user4-128x128.jpg"
+                                                            alt="User profile picture">
+                                                    </div>
+                                                    <p class="text-center m-0">5.112</p>
+                                                    <h5 class="text-center mt-1">52%</h5>
                                                 </div>
-
-                                                <h3 class="profile-username text-center">Nina Mcintire</h3>
-
-                                                <p class="text-muted text-center">Software Engineer</p>
                                             </div>
-                                            <!-- /.card -->
+                                        </div>
+                                        <div class="col-lg-12 pb-4">
+                                            <div class="text-center">Data Pemilih Tetap</div>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- /.card-body -->
+                                <div class="card mx-3">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="card-body p-0">
+                                                <div class="card-body box-profile">
+                                                    <div class="text-center">
+                                                        <img class="img-100" src="../../dist/img/user4-128x128.jpg"
+                                                            alt="User profile picture">
+                                                    </div>
+                                                    <p class="text-center m-0">5.112</p>
+                                                    <h5 class="text-center mt-1">48%</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="card-bodyp-0">
+                                                <div class="card-body box-profile">
+                                                    <div class="text-center">
+                                                        <img class="img-100" src="../../dist/img/user4-128x128.jpg"
+                                                            alt="User profile picture">
+                                                    </div>
+                                                    <p class="text-center m-0">5.112</p>
+                                                    <h5 class="text-center mt-1">52%</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 pb-4">
+                                            <div class="text-center">Data Pemilih Tetap</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mx-3">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="card-body p-0">
+                                                <div class="card-body box-profile">
+                                                    <div class="text-center">
+                                                        <img class="img-100" src="../../dist/img/user4-128x128.jpg"
+                                                            alt="User profile picture">
+                                                    </div>
+                                                    <p class="text-center m-0">5.112</p>
+                                                    <h5 class="text-center mt-1">48%</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="card-body p-0">
+                                                <div class="card-body box-profile">
+                                                    <div class="text-center">
+                                                        <img class="img-100" src="../../dist/img/user4-128x128.jpg"
+                                                            alt="User profile picture">
+                                                    </div>
+                                                    <p class="text-center m-0">5.112</p>
+                                                    <h5 class="text-center mt-1">52%</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 pb-4">
+                                            <div class="text-center">Data Pemilih Tetap</div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-7">
                             <div class="card h-100">
                                 <div class="card-body d-flex flex-column justify-content-end">
                                     <p class="text-center">
-                                        <strong>Sales: 1 Jan, 2014 - 30 Jul, 2014</strong>
+                                        <strong>Relawan Timeline</strong><br>
+                                        <span>Grafik rekaman data Gerakan Relawan dalam pengumpulan dukungan</span>
                                     </p>
                                     <div class="chart mt-auto">
                                         <!-- Sales Chart Canvas -->
